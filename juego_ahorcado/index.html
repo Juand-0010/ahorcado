@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html lang="es" class="no-js lt-ie9 lt-ie8 lt-ie7" prefix="og: https://ogp.me/ns#"> <![endif]-->
+<!--[if IE 7]>         <html lang="es" class="no-js lt-ie9 lt-ie8" prefix="og: https://ogp.me/ns#"> <![endif]-->
+<!--[if IE 8]>         <html lang="es" class="no-js lt-ie9" prefix="og: https://ogp.me/ns#"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="es" class="no-js"> <!--<![endif]-->
+	<head itemscope itemtype="https://schema.org/Person" prefix="og: https://ogp.me/ns# fb: https://ogp.me/ns/fb# profile: https://ogp.me/ns/profile#">
+		<meta charset="utf-8" />
+		<!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /><![endif]-->
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="viewport" content="width=device-width, user-scalable=yes, minimum-scale=1.0, maximum-scale=3.0, initial-scale=1.0" />
+
+		
+		<meta http-equiv="Content-Encoding" content="gzip" />
+		<meta http-equiv="Accept-Encoding" content="gzip, deflate" />
+				
+		<link rel="shortcut icon" href="favicon.ico?v1" />
+		<link rel="icon" href="favicon.ico?v1" />
+		<link rel="apple-touch-icon" href="apple-touch-icon.png" />
+				
+		<title>Oracle - Alura Reto - Ahorcado - Juan Palma</title>
+		<meta name="description" content="Segundo reto de los cursos de Alura, desarollaremos un juego de Ahorcado, hecho por Juan Palma"></meta>
+
+		<!-- PWA APP Startup configuration -->
+		<link rel="manifest" href="manifest.webmanifest">
+		<!-- Fallback application metadata for legacy browsers -->
+		<meta name="application-name" content="Ahorcado Version Ovni">
+		<link rel="icon" sizes="16x16 32x32 48x48 64x64" href="favicon.ico?v1">
+		<link rel="icon" sizes="512x512" href="img/icons/icono-ahorcado-ufo-512.png">
+		<meta name="theme-color" content="#9acd32"/>
+
+					
+		<meta name="dcterms.audience" content="Global" />
+		<meta name="rating" content="General" />
+		
+		
+		<link rel="stylesheet" href="css/reset.css" />
+		<link rel="stylesheet" id="cssMain" href="css/main.css" />
+		<link rel="preload" href="https://fonts.googleapis.com/css?family=Lato:100,300,400,600,900&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+		<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:100,300,400,600,900&display=swap"></noscript>
+		<!--[if lte IE 8]> <link rel="stylesheet" href="css/resetIE.css" /> <![endif]-->
+		
+		<script defer src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.8.1/lottie.min.js"
+			integrity="sha512-V1YyTKZJrzJNhcKthpNAaohFXBnu5K9j7Qiz6gv1knFuf13TW/3vpgVVhJu9fvbdW8lb5J6czIhD4fWK2iHKXA=="
+			crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+		<script defer src="js/librerias/parallax.js" crossorigin="anonymous"  referrerpolicy="no-referrer"></script>
+		<script defer data-main="js/owner/main" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js"
+			integrity="sha512-c3Nl8+7g4LMSTdrm621y7kf9v3SDPnhxLNhcjFJbKECVnmZHTdo+IRO05sNLTH/D3vA6u1X32ehoLC7WFVdheg=="
+			crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+		
+		
+		<meta itemprop="name" content="Alura Reto - Ahorcado - Juan Palma" />
+		<meta itemprop="description" content="Segundo reto de los cursos de Alura, desarollaremos un juego de Ahorcado, hecho por Juan Palma" />
+		<meta itemprop="image" content="https://ahorcado.idalibre.com/img/facebook_web_img_article.jpg" />
+		
+		<meta property="og:type" content="WEBSITE" />
+		<meta property="og:url" content="https://ahorcado.idalibre.com/" />
+		<meta property="og:site_name" content="Ahorcado - Juan Palma" />
+				
+		<meta property="og:title" content="Alura Reto - Ahorcado - Juan Palma" />
+		<meta property="og:description" content="Segundo reto de los cursos de Alura, desarollaremos un juego de Ahorcado, hecho por Juan Palma" />
+		<meta property="og:image" content="https://ahorcado.idalibre.com/img/facebook_web_img_article.jpg" />
+		<meta property="og:image:type" content="image/jpg" />
+		
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:site" content="@juan_el_compa" />
+		<meta name="twitter:title" content="Alura Reto - Ahorcado - Juan Palma" />
+		<meta name="twitter:description" content="Segundo reto de los cursos de Alura, desarollaremos un juego de Ahorcado, hecho por Juan Palma" />
+		<meta name="twitter:image:src" content="https://ahorcado.idalibre.com/img/facebook_web_img_article.jpg" />
+		<meta name="twitter:domain" content="Ahorcado.idalibre.com/" />
+		
+		<meta name="author" content="Juan Palma - ID.A libre">
+		<link type="text/plain" rel="author" href="humans.txt" />
+
+		<!-- Google Tag Manager -->
+		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+			new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+			j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+			'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+			})(window,document,'script','dataLayer','GTM-PN9B7NX');</script>
+	<!-- End Google Tag Manager -->
+
+		<script>
+			if('serviceWorker' in navigator) {
+			  navigator.serviceWorker.register('/sw.js');
+			}
+		</script>
+		
+	</head>
+	<body id="fondo_body" inputmode="text">
+		<!-- Google Tag Manager (noscript) -->
+		<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PN9B7NX"
+		height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+		<!-- End Google Tag Manager (noscript) -->
+
+
+		<!-- Colocar el contenido de su sitio aqui -->
+		<div id="loadGif"><img src="img/ajax.webp" alt="Cargando..." width="20" height="20"/></div>
+		<div id="gifs" class="animar1-4 opacidad0">
+			<img id="animFLama" preload-src="img/flama.webp" alt="flama" width="214" height="252" />
+			<div id="resplandor" class="animar opacidad0"></div>
+			<div id="estrellas">
+				<div id="estrella1" class="estrella_contenedor">
+					<div class="estrella"></div>
+				</div>
+			</div>
+			<div id="lunaBox">
+				<div id="luna">
+					<div id="crater"></div>
+				</div>
+			</div>
+		</div>
+		
+		<div id="fondos" class="animar1-4 opacidad0">
+			<div id="arbolesFondo" class="fullscreen" data-depth="0.10">
+				<img preload-src="img/ahorcado_arboles_fondo.webp" alt="arboles fondo" width="2560" height="1600" />
+			</div>
+			<div id="escenario" class="fullscreen"  data-depth="0.20">
+				<img preload-src="img/ahorcado_escenario_fondo.webp" alt="escenario" width="2560" height="1600" />
+				<div id="ventanas">
+					<div class="ventana"></div>
+					<div class="ventana"></div>
+				</div>
+				<div id="humano" class="p0">
+				</div>
+				<div id="ovni" class="p2 p1 p0">
+				</div>
+			</div>
+			<div id="arbolesfrente" class="fullscreen" data-depth="0.40">
+				<img preload-src="img/ahorcado_arboles_frente_fondo.webp" alt="arboles frente" width="2560" height="1600" />
+			</div>
+		</div>
+
+		<div id="msnBox">
+			<div id="msnGano"></div>
+			<div id="msnPerdio"></div>
+		</div>
+
+		<div id="destelloAccion"></div>
+
+		<div id="canvas">
+			<div id="erroresBox" class="opacidad0">
+				<div id="vidas">Vidas: <span class="rojo"></span></div>
+				<span>Fallos:</span>
+				<div id="errores"></div>
+			</div>
+			<canvas id="cPalabra" width="300"></canvas>
+			<canvas id="cEscenario" width="100" height="100"></canvas>
+		</div>
+
+
+		<div id="container0">
+			<header id="titulo" class="margenL">
+				<div id="idalibreLogo">
+					<a href="https://idalibre.com" target="_blank" rel="noreferrer">
+						<img alt="ID.A libre - Logo" title="ID.A libre" src="img/idalibre-logo.svg" width="58" height="58" />
+					</a>
+				</div>
+				<h1>Ahorcado - Oracle ONE - Alura reto 2:<br />
+					<span>lógica de programación</span><br />
+					<span>Juan Palma</span>
+				</h1>
+			</header>
+			<main id="container1" class="margenG">
+				<div id="visor">
+					<div id="btnPlay" class="animar ocultar">Jugar</div>
+				</div>
+			</main>
+			<footer id="juanFooter">
+				<div class="interno">
+					power by:
+					<a href="https://www.tiktok.com/@juan.palma" target="_blank" rel="noreferrer">
+						<img alt="Juan Palma - Logo" title="Juan Palma - TikTok" src="img/juan-palma-logo-obscuro.svg" width="48" height="48" />
+						<span class="juanpalma">Juan Palma</span>
+					</a>
+				</div>
+			</footer>
+		</div>
+
+
+		<div id="teclado" class="animar">
+			<div id="teclas">
+				<div class="tiraLetras">
+					<div id="q" class="tecla">Q</div>
+					<div id="w" class="tecla">W</div>
+					<div id="e" class="tecla">E</div>
+					<div id="r" class="tecla">R</div>
+					<div id="t" class="tecla">T</div>
+					<div id="y" class="tecla">Y</div>
+					<div id="u" class="tecla">U</div>
+					<div id="i" class="tecla">I</div>
+					<div id="o" class="tecla">O</div>
+					<div id="p" class="tecla">P</div>
+				</div>
+				<div class="tiraLetras">
+					<div id="a" class="tecla">A</div>
+					<div id="s" class="tecla">S</div>
+					<div id="d" class="tecla">D</div>
+					<div id="f" class="tecla">F</div>
+					<div id="g" class="tecla">G</div>
+					<div id="h" class="tecla">H</div>
+					<div id="j" class="tecla">J</div>
+					<div id="k" class="tecla">K</div>
+					<div id="l" class="tecla">L</div>
+					<div id="ñ" class="tecla">Ñ</div>
+				</div>
+				<div class="tiraLetras">
+					<div id="z" class="tecla">Z</div>
+					<div id="x" class="tecla">X</div>
+					<div id="c" class="tecla">C</div>
+					<div id="v" class="tecla">V</div>
+					<div id="b" class="tecla">B</div>
+					<div id="n" class="tecla">N</div>
+					<div id="m" class="tecla">M</div>
+				</div>
+			</div>
+		</div>
+
+
+		<div id="settings" class="animar opacidad0">
+			<div id="audioBox">
+				<div class="titulo">Sonido: </div>
+				<div class="switchBox on">
+					<span class="swOpcion off">OFF</span>
+					<span class="swOpcion on">ON</span>
+					<div class="switch"></div>
+				</div>
+			</div>
+			<div class="navicon">
+				<div id="nav-toggle" class="nav_slide_button"><span></span></div>
+			</div>
+			<div id="btnSalirBox" class="animar">
+				<div id="btnSalir" class=" animar"><span class="animar">Salir</span></div>
+			</div>
+			
+			<div id="extend">
+				<label for="categoria" tabindex="-1">Elige tu juego y dificultad</label>
+				<div class="cols2">
+					<div class="boxSelect">
+						<select id="categorias" tabindex="-1">
+							<option value="" selected>Elegir Categoria</option>
+						</select>
+					</div>
+					<div id="niveles">
+						<div id="nivelFacil" class="animar">Facil</div>
+						<div id="nivelDificil" class="animar">Dificil</div>
+					</div>
+				</div>
+				<div id="btnComenzar" class="animar">Comenzar</div>
+				<div id="agregarBox">
+					<label for="palabraAdd" class="animar" tabindex="-1">Agregar nueva palabra</label>
+					<div class="togglehide animar">
+						<div class="toogleAlto">
+							<input type="text" id="palabraAdd" maxlength="24" placeholder="maximo 24 caracteres" tabindex="-1"></input>
+							<label for="categoriaAdd" tabindex="-1">Categoria para tu palabra</label>
+							<div class="boxSelect"><select id="categoriaAdd" tabindex="-1"></select></div>
+							<div id="addCategoriaBox"><span id="addCategoria" class="animar">+</span> Añadir nueva categoría</div>
+							<input type="button" id="btnAdd" class="animar" value="Guardar palabra" tabindex="-1"></input>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+		
+		<div id="preloadOculto" class="desaparece"></div>
+	</body>
+</html>
